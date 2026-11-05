@@ -1,0 +1,45 @@
+# Core LangChain ecosystem
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-groq>=0.1.0
+langchain-mistralai
+langgraph>=0.2.0
+
+# Tavily web search integration
+langchain-tavily>=0.1.0
+tavily-python>=0.3.0
+
+# Web scraping and HTML parsing
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+lxml>=5.0.0
+html5lib>=1.1
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Async HTTP support
+aiohttp>=3.9.0
+
+# Data handling
+pandas>=2.0.0
+
+# Token counting and text utilities
+tiktoken>=0.6.0
+
+# Logging and debugging
+rich>=13.7.0
+
+# Retries and robustness
+tenacity>=8.2.0
+
+# Fast JSON handling
+orjson>=3.9.0
+
+# Data validation and schemas
+pydantic>=2.5.0
+
+# Python agent system as an API for a React frontend
+fastapi
+uvicorn[standard]
